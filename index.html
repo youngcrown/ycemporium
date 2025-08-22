@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YC Emporium | Expert Web Designer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body class="light-mode">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-logo">
+                <img src="images/logo.png" alt="YC Emporium Logo">
+            </div>
+        </div>
+    </div>
+    
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><img src="images/logo.png" alt="YC Emporium Logo">YC<span>Emporium</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="blog/index.html" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="reveal-text">Crafting Digital <span class="gradient-text">Experiences</span> That Inspire</h1>
+                    <p class="subtitle reveal-text-delay">Expert Web Designer & Developer</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <img src="images/hero-image.png" alt="YC Emporium Web Design" class="floating">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down bounce"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/profile.png" alt="YC Emporium Profile">
+                        <div class="experience-badge">
+                            <span class="years">5+</span>
+                            <span class="text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Hello, I'm <span class="gradient-text">KOMOLAFE JEREMIAH</span></h3>
+                        <p>I'm a passionate web designer and developer with over 5 years of experience creating stunning digital experiences. I specialize in crafting user-centered designs that not only look beautiful but also drive results for businesses.</p>
+                        <p>My approach combines aesthetic excellence with technical precision, ensuring that every project I deliver exceeds expectations in both form and function. I believe that great design should be accessible, intuitive, and impactful.</p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="number">120+</span>
+                                <span class="label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="number">95%</span>
+                                <span class="label">Client Satisfaction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="number">15+</span>
+                                <span class="label">Design Awards</span>
+                            </div>
+                        </div>
+                        <div class="about-cta">
+                            <a href="#contact" class="btn primary-btn">Let's Work Together</a>
+                            <a href="images/resume.pdf" class="btn outline-btn" download>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web-design">Web Design</button>
+                    <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="e-commerce">E-Commerce</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web-design ui-ux">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Modern E-commerce Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="projects/project1.html" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="projects/project1.html" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <a href="projects/project1.html" class="project-title-link">
+                                <h3 class="project-title">Modern E-commerce Platform</h3>
+                            </a>
+                            <p class="project-category">Web Design, UI/UX</p>
+                            <p class="project-desc">A fully responsive e-commerce platform with seamless user experience and modern design elements.</p>
+                            <a href="projects/project1.html" class="view-project-btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="branding ui-ux">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="Brand Identity Design">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Luxury Brand Identity</h3>
+                            <p class="project-category">Branding, UI/UX</p>
+                            <p class="project-desc">Complete brand identity design including logo, website, and marketing materials.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="web-design e-commerce">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Mobile App Design">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Mobile Shopping Experience</h3>
+                            <p class="project-category">Web Design, E-Commerce</p>
+                            <p class="project-desc">Mobile-first shopping app with intuitive navigation and seamless checkout process.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="ui-ux">
+                        <div class="project-image">
+                            <img src="images/project4.jpg" alt="Dashboard UI Design">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-category">UI/UX</p>
+                            <p class="project-desc">Data visualization dashboard with interactive elements and real-time updates.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="branding">
+                        <div class="project-image">
+                            <img src="images/project5.jpg" alt="Brand Identity">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Tech Startup Rebrand</h3>
+                            <p class="project-category">Branding</p>
+                            <p class="project-desc">Complete rebranding for a tech startup, including logo, website, and marketing materials.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="web-design e-commerce">
+                        <div class="project-image">
+                            <img src="images/project6.jpg" alt="E-commerce Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Fashion E-commerce</h3>
+                            <p class="project-category">Web Design, E-Commerce</p>
+                            <p class="project-desc">High-end fashion e-commerce platform with immersive product experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-cta">
+                    <a href="#contact" class="btn primary-btn">Interested in working together?</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-text">
+                        <h3>Expertise & <span class="gradient-text">Technologies</span></h3>
+                        <p>With a passion for creating exceptional digital experiences, I've mastered a diverse set of skills and technologies that allow me to bring any vision to life. From concept to deployment, I ensure every project meets the highest standards of design and functionality.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <p>Creating intuitive and engaging user experiences with a focus on usability and aesthetics.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Front-end Development</h4>
+                            <p>Building responsive, accessible websites using HTML5, CSS3, and modern JavaScript frameworks.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>Responsive Design</h4>
+                            <p>Ensuring perfect experiences across all devices, from mobile phones to large desktop screens.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h4>E-commerce Solutions</h4>
+                            <p>Developing custom online stores with seamless checkout processes and inventory management.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h4>SEO Optimization</h4>
+                            <p>Implementing best practices to improve search engine visibility and drive organic traffic.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>Performance Optimization</h4>
+                            <p>Enhancing website speed and performance for better user experience and conversion rates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-stack">
+                    <h3>Technologies I Work With</h3>
+                    <div class="tech-icons">
+                        <div class="tech-icon" data-tooltip="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="Sass">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="WordPress">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="Figma">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <div class="tech-icon" data-tooltip="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client <span class="gradient-text">Testimonials</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial-track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p>YC Emporium transformed our outdated website into a modern, user-friendly platform that perfectly represents our brand. The attention to detail and creative solutions exceeded our expectations.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="images/client1.jpg" alt="Sarah Johnson">
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CEO, Lumina Brands</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p>Working with YC Emporium was a game-changer for our e-commerce business. The intuitive design and seamless user experience led to a 40% increase in conversions within the first month.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="images/client2.jpg" alt="Michael Chen">
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>Founder, Urban Threads</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p>The website YC Emporium designed for us perfectly captures our brand essence while providing an exceptional user experience. Their technical expertise and creative vision are unmatched.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="images/client3.jpg" alt="Emma Rodriguez">
+                                <div class="author-info">
+                                    <h4>Emma Rodriguez</h4>
+                                    <p>Marketing Director, Nexus Tech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="testimonial-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Create Something <span class="gradient-text">Amazing</span> Together</h3>
+                        <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Ibadan, Nigeria</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>youngcrown059@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+234 810 4576 132</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home"><img src="images/logo.png" alt="YC Emporium Logo">YC<span>Emporium</span></a>
+                    <p>Creating exceptional digital experiences that drive results.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog/index.html">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#web-design">Web Design</a></li>
+                            <li><a href="services.html#ui-ux-design">UI/UX Design</a></li>
+                            <li><a href="services.html#branding">Branding</a></li>
+                            <li><a href="services.html#e-commerce">E-commerce</a></li>
+                            <li><a href="services.html#seo">SEO Optimization</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">Dribbble</a></li>
+                            <li><a href="#">Behance</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 YC Emporium. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
